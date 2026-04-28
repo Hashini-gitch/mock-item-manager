@@ -7,7 +7,7 @@ function App() {
   const [items, setItems] = useState([]);
   const [brand, setBrand] = useState("");
 
-  const API_URL = "http://localhost:5000/api/items";
+  const API_URL = "https://mock-item-manager.onrender.com/api/items";
 
   const fetchItems = async () => {
     try {
